@@ -1,6 +1,32 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML="Obrigado por clicar";
+    
+    //console.log(document.getElementById("agradecimento"));
+    //alert ("Obrigado por clicar");
+}
 
-function soma (n1,n2){
+function redirecionar (){
+    window.open("https://digitalinnovation.one/sign-up?ref=FTWZ9VT8QF"); //este abre em nova aba
+   // window.location.href="https://digitalinnovation.one/sign-up?ref=FTWZ9VT8QF"; //este abre na mesma página
+}
+
+function trocar(elemento){
+    //alert("trocar texto");
+   // document.getElementById("mousemove").innerHTML="Obrigado por passar o mouse";
+    elemento.innerHTML="Obrigado por passar o mouse";
+}
+
+ function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML="Passe o mouse aqui";
+    elemento.innerHTML="Passe o mouse aqui";
+}
+function funcaoChange (elemento){
+    console.long(elemento.value);
+}
+
+//--------------Exercicios função---------
+/*function soma (n1,n2){
     return n1+n2;
 }
 function validaIdade(idade){
@@ -14,12 +40,7 @@ function validaIdade(idade){
 }
 
 var idade = prompt("Qual dua idade");
-console.log(validade(idade))
-
-
-
-
-
+console.log(validade(idade))*/
 
 
 /*function soma (n1,n2){
